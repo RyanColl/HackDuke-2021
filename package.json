@@ -1,6 +1,5 @@
 {
   "name": "hackduke-2021",
-  "homepage": "https://ryancoll.github.io/HackDuke-2021",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -86,3 +86,10 @@ nav {
 .chart-container {
   width: 100%;
 }
+td {
+  transition: all 0.5s;
+}
+td:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}

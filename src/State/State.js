@@ -7,7 +7,7 @@ import { Doughnut, Pie, Bar, Line, HorizontalBar } from 'react-chartjs-2';
 import { plugins } from "pretty-format";
 const State = () => {
     let params = useParams()
-    const [state] = data.filter(state => state.State === params.state)
+    const [state] = data.filter(state => state.State.toLowerCase() === params.state.toLowerCase())
     const {one, two, three, four, five, six, seven, eight, nine, ten, 
         eleven, twelve, thirteen, fourteen, fifteen, sixteen} = state;
     const natureData = {

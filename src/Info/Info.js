@@ -119,7 +119,7 @@ const Info = () => {
                         <div className="card">
                         <div className="card-image">
                             <figure className="image is-4by3">
-                            <img src="img/owen.jpg" alt="Placeholder image" style={{objectFit: 'contain'}} />
+                            <img style={{padding: 5}} src="img/owen.jpg" alt="Placeholder image" style={{objectFit: 'contain'}} />
                             </figure>
                         </div>
                         <div className="card-content">

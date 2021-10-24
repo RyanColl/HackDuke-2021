@@ -12,9 +12,9 @@ const Nav = (props) => {
  
   <div className="navbar-menu">
     <div className="navbar-start">
-      <a className="navbar-item is-primary">
+      <Link to='/' className="navbar-item is-primary">
         Maps
-      </a>
+      </Link>
       <a className="navbar-item search-bar is-primary">
       <AutoComplete
             name="state"
@@ -22,7 +22,7 @@ const Nav = (props) => {
             data={data.map(data => data.State)}
             followInput={followInput}
         />
-        <Link to={`/${searchInput}`}><button className='button is-light search_button'>Search</button></Link>
+        <Link to={data.filter(state => state.State.toLowerCase() === searchInput.toLowerCase()).length > 0 ? `/${searchInput}` : '/'}><button className='button is-light search_button'>Search</button></Link>
       </a>
     </div>
   </div>
