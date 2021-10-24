@@ -1,6 +1,6 @@
 import React from "react";
 import AutoComplete from '../AutoComplete/AutoComplete'
-import data from '../Data/jsondata.json'
+import data from '../Data/data.json'
 import { Link } from "react-router-dom";
 const Nav = (props) => {
     const {searchInput, setSearchInput} = props;

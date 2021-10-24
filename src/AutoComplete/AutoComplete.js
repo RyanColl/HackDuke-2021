@@ -90,7 +90,7 @@ class Autocomplete extends React.Component {
     const { activeIndex, matches, query } = this.state;
 
     return (
-      <div className="">
+      <div className="autocomplete">
         {label && <label className="label">{label}</label>}
         <div className="control">
           <div className={`dropdown ${matches.length > 0 ? "is-active" : ""}`}>
