@@ -1,9 +1,10 @@
 import React from "react";
+import ScrollButton from "../ScrollButton/ScrollButton";
 
 
 const Info = () => {
 
-    const width = window.innerWidth
+    
     const info = [
         {
             id: 1,
@@ -113,61 +114,62 @@ const Info = () => {
                     <a href="https://www.bigrentz.com/blog/which-states-produce-most-trash">BigRentz: American Wasteland - Which States Produce the Most Trash?</a><br/>
                     <a href="https://www.neefusa.org/weather-and-climate/weather/home-water-use-united-states">National Environmental Education Foundation: Home Water Use in the United States</a>
                 </p>
-                <div class="columns">
-                    <div class="column">
-                        <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                            <img src="files/Owen.jpg" alt="Placeholder image" style={{objectFit: 'contain'}} />
+                <div className="columns">
+                    <div className="column">
+                        <div className="card">
+                        <div className="card-image">
+                            <figure className="image is-4by3">
+                            <img src="img/owen.jpg" alt="Placeholder image" style={{objectFit: 'contain'}} />
                             </figure>
                         </div>
-                        <div class="card-content">
-                            <div class="media">
-                            <div class="media-content">
-                                <p class="title is-4">Owen Sizemore</p>
-                                <p class="subtitle is-6">Computer Science at UNC Charlotte, North Carolina, United States</p>
+                        <div className="card-content">
+                            <div className="media">
+                            <div className="media-content">
+                                <p className="title is-4">Owen Sizemore</p>
+                                <p className="subtitle is-6">Computer Science at UNC Charlotte, North Carolina, United States</p>
                             </div>
                             </div>
                             <div>
                             <a href="https://www.linkedin.com/in/owensizemore/">
-                                <i class="fab fa-linkedin" style={{fontSize: 26}} ></i>
+                                <i className="fab fa-linkedin" style={{fontSize: 26}} ></i>
                             </a>
                             <a href="https://github.com/owensizemore">
-                                <i class="fab fa-github-square" style={{fontSize: 26}}></i>
+                                <i className="fab fa-github-square" style={{fontSize: 26}}></i>
                             </a>                 
                             </div>
                         </div>
                         </div>
                     </div>
-                    <div class="column">
-                        <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                            <img src="[TODO]" alt="Placeholder image" style={{objectFit: 'contain'}} />
+                    <div className="column">
+                        <div className="card">
+                        <div className="card-image">
+                            <figure className="image is-4by3">
+                            <img src="img/ryan.jpeg" alt="Placeholder image" style={{objectFit: 'contain'}} />
                             </figure>
                         </div>            
-                        <div class="card-content">
-                            <div class="media">
-                            <div class="media-content">
-                                <p class="title is-4">[TODO]</p>
-                                <p class="subtitle is-6">[TODO]</p>
+                        <div className="card-content">
+                            <div className="media">
+                            <div className="media-content">
+                                <p className="title is-4">Ryan Collicutt</p>
+                                <p className="subtitle is-6">Full Stack Web Developer at BCIT, British Columbia, Canada</p>
                             </div>
                             </div>
 
                             <div>
-                            <a class="is-warning" href="[TODO]">
-                                <i class="fab fa-linkedin" style={{fontSize: 26}} ></i>
+                            <a className="is-warning" href="[TODO]">
+                                <i className="fab fa-linkedin" style={{fontSize: 26}} ></i>
                             </a>
                             <a href="[TODO]">
-                                <i class="fab fa-github-square" style={{fontSize: 26}}></i>
+                                <i className="fab fa-github-square" style={{fontSize: 26}}></i>
                             </a>                
                             </div>              
                         </div>
                         </div>
-                       
                     </div>
                 </div>
+                {<ScrollButton />}
             </div>
+            
         </div>
     )
 }
