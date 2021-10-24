@@ -83,7 +83,7 @@ const Info = () => {
                 <p className='is-size-5'>EnviroView is an online environmental database tool designed for efficient and easy access to insightful information regarding the United States’ impact on the environment through four key categories: <a className='link' href='#nature'><b>Nature</b></a>, <a className='link' href='#energy'><b>Energy</b></a>, <a className='link' href='#transportation'><b>Transportation</b></a>, and <a className='link' href='#household'><b>Household</b></a>. Each category utilizes data from various public and governmental datasets to allow viewers to easily identify how states compare to each other in their positive and negative contributions to environmental sustainability.</p>
             
             
-                <h2 className='title is-3 block'>How Can I Use EniroView</h2>
+                <h2 className='title is-3 block'>How Can I Use EnviroView</h2>
                 <p className='is-size-5'>The collection of maps describes the current data on different environmental conditions in the United States. Displayed below are maps and graphs that represent four seperate subcategories: Transportation, Residential/Home, Energy, and Nature.</p>
                 {info.map(piece => {
                     return(
