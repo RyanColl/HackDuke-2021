@@ -4,7 +4,7 @@ export const enviroLabels = {
     `Number of Registered Vehicles per 100 Residents (2019)`,
     `Percentage of People that Carpool, Use Public Transportation, or Walk to Work, 2019`,
     `Percentage of People that Drive Alone to Work, 2019`,
-    `Number of Registered Electric Vehicles, 2021`,
+    `Number of Registered Electric Vehicles (Thousands), 2021`,
   ],
   nature: [
     `Percentage of Total Land that is Forest, 2018`,
@@ -19,7 +19,7 @@ export const enviroLabels = {
     `Million Metric Tons of Petroleum energy-related Emissions, 2018`,
   ],
   household: [
-    `Average Household Kilowatt Hours of Energy Consumed per Month `,
+    `Average Household Kilowatt Hours of Energy Consumed per Month (Thousands)`,
     `Metric Tons of New Landfill Waste, 2019`,
     `Average Number of Gallons of Water Used per Day per Household`,
     `Percentage of Common Containers and Packaging Materials Recycled`

@@ -8,13 +8,24 @@ const Nav = (props) => {
         setSearchInput(value)
     }
     return(
-        <nav className="navbar is-info" role="navigation" aria-label="main navigation">
+        <nav className="navbar is-success" role="navigation" aria-label="main navigation">
  
+ <div class="navbar-brand">
+    <Link class="navbar-item" to="/">
+      <img src="img/ecosystem.png" width="28" height="28" />
+    </Link>
+  </div>
   <div className="navbar-menu">
+
     <div className="navbar-start">
       <Link to='/' className="navbar-item is-primary">
-        Maps
+        <b>Home</b>
       </Link>
+      {['Nature', 'Energy', 'Transportation', 'Household'].map(s => {
+        return (
+          <a className='navbar-item is-primary' href={`#${s.toLowerCase()}`}>{s}</a>
+        )
+      })}
       <a className="navbar-item search-bar is-primary">
       <AutoComplete
             name="state"

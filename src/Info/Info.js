@@ -58,7 +58,7 @@ const Info = () => {
         },
         {
             id: 4,
-            title: 'HouseHold',
+            title: 'Household',
             statistics: [
                 'Average Number of Gallons of Water Used per Day per Household',
                 'Average Household Kilowatt Hours of Energy Consumed per Month',
@@ -79,11 +79,11 @@ const Info = () => {
         <div>
             <h1 style={{textAlign: 'center'}} className='title is-1 block'>Welcome to EnviroView</h1>
             <div className='content'>
-                <h2 className='title is-3 block'>How To Use EnviroView</h2>
-                <p className='is-size-5'>EnviroView is an online environmental database tool designed for efficient and easy access to insightful information regarding the United States’ impact on the environment through four key categories: <a href='#nature'><b>Nature</b></a>, <a href='#energy'><b>Energy</b></a>, <a href='#transportation'><b>Transportation</b></a>, and <a href='#household'><b>Household</b></a>. Each category utilizes data from various public and governmental datasets to allow viewers to easily identify how states compare to each other in their positive and negative contributions to environmental sustainability.</p>
+                <h2 className='title is-3 block'>What Is EnviroView</h2>
+                <p className='is-size-5'>EnviroView is an online environmental database tool designed for efficient and easy access to insightful information regarding the United States’ impact on the environment through four key categories: <a className='link' href='#nature'><b>Nature</b></a>, <a className='link' href='#energy'><b>Energy</b></a>, <a className='link' href='#transportation'><b>Transportation</b></a>, and <a className='link' href='#household'><b>Household</b></a>. Each category utilizes data from various public and governmental datasets to allow viewers to easily identify how states compare to each other in their positive and negative contributions to environmental sustainability.</p>
             
             
-                <h2 className='title is-3 block'>Our Analysis</h2>
+                <h2 className='title is-3 block'>How Can I Use EniroView</h2>
                 <p className='is-size-5'>The collection of maps describes the current data on different environmental conditions in the United States. Displayed below are maps and graphs that represent four seperate subcategories: Transportation, Residential/Home, Energy, and Nature.</p>
                 {info.map(piece => {
                     return(
@@ -114,6 +114,7 @@ const Info = () => {
                     <a href="https://www.bigrentz.com/blog/which-states-produce-most-trash">BigRentz: American Wasteland - Which States Produce the Most Trash?</a><br/>
                     <a href="https://www.neefusa.org/weather-and-climate/weather/home-water-use-united-states">National Environmental Education Foundation: Home Water Use in the United States</a>
                 </p>
+                <h2 className='title is-3 block'>About Us</h2>
                 <div className="columns">
                     <div className="column">
                         <div className="card">
@@ -131,10 +132,10 @@ const Info = () => {
                             </div>
                             <div>
                             <a href="https://www.linkedin.com/in/owensizemore/">
-                                <i className="fab fa-linkedin" style={{fontSize: 26}} ></i>
+                                <i className="fab fa-linkedin" style={{fontSize: 36}} ></i>
                             </a>
-                            <a href="https://github.com/owensizemore">
-                                <i className="fab fa-github-square" style={{fontSize: 26}}></i>
+                            <a style={{marginLeft: 5}} href="https://github.com/owensizemore">
+                                <i className="fab fa-github-square" style={{fontSize: 36}}></i>
                             </a>                 
                             </div>
                         </div>
@@ -156,11 +157,11 @@ const Info = () => {
                             </div>
 
                             <div>
-                            <a className="is-warning" href="[TODO]">
-                                <i className="fab fa-linkedin" style={{fontSize: 26}} ></i>
+                            <a className="is-primary" href="https://www.linkedin.com/in/rcollicutt-react-developer/">
+                                <i className="fab fa-linkedin" style={{fontSize: 36}} ></i>
                             </a>
-                            <a href="[TODO]">
-                                <i className="fab fa-github-square" style={{fontSize: 26}}></i>
+                            <a style={{marginLeft: 5}} href="https://github.com/RyanColl">
+                                <i className="fab fa-github-square" style={{fontSize: 36}}></i>
                             </a>                
                             </div>              
                         </div>
