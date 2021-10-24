@@ -1,0 +1,452 @@
+[
+  {
+    "State": "Alabama",
+    "one": 43,
+    "two": 9.9,
+    "three": 85.7,
+    "four": "2,890",
+    "five": 70.57,
+    "six": 20
+  },
+  {
+    "State": "Alaska",
+    "one": 24.4,
+    "two": 21.2,
+    "three": 68.7,
+    "four": 940,
+    "five": 35.16,
+    "six": 20
+  },
+  {
+    "State": "Arizona",
+    "one": 33.1,
+    "two": 14.6,
+    "three": 76.4,
+    "four": "28,770",
+    "five": 25.64,
+    "six": 20
+  },
+  {
+    "State": "Arkansas",
+    "one": 29.4,
+    "two": 12.6,
+    "three": 82.8,
+    "four": "1,330",
+    "five": 56.31,
+    "six": 28
+  },
+  {
+    "State": "California",
+    "one": 37.7,
+    "two": 17.8,
+    "three": 73.7,
+    "four": "425,300",
+    "five": 32.71,
+    "six": 22
+  },
+  {
+    "State": "Colorado",
+    "one": 30.2,
+    "two": 14.5,
+    "three": 75,
+    "four": "24,670",
+    "five": 34.42,
+    "six": 22
+  },
+  {
+    "State": "Connecticut",
+    "one": 35.4,
+    "two": 15.3,
+    "three": 78.2,
+    "four": "9,040",
+    "five": 55.24,
+    "six": 14
+  },
+  {
+    "State": "Delaware",
+    "one": 43.5,
+    "two": 13,
+    "three": 80.9,
+    "four": "1,950",
+    "five": 27.26,
+    "six": 34
+  },
+  {
+    "State": "Florida",
+    "one": 36.5,
+    "two": 12.4,
+    "three": 79.1,
+    "four": "58,160",
+    "five": 50.68,
+    "six": 22
+  },
+  {
+    "State": "Georgia",
+    "one": 33,
+    "two": 13.2,
+    "three": 79.2,
+    "four": "23,530",
+    "five": 67.28,
+    "six": 16
+  },
+  {
+    "State": "Hawaii",
+    "one": 35.2,
+    "two": 24.7,
+    "three": 67.5,
+    "four": "10,670",
+    "five": 42.53,
+    "six": 34
+  },
+  {
+    "State": "Idaho",
+    "one": 33.7,
+    "two": 13.3,
+    "three": 78.5,
+    "four": "2,300",
+    "five": 40.55,
+    "six": 32
+  },
+  {
+    "State": "Illinois",
+    "one": 34.1,
+    "two": 20.4,
+    "three": 72.9,
+    "four": "26,000",
+    "five": 13.64,
+    "six": 18
+  },
+  {
+    "State": "Indiana",
+    "one": 32.5,
+    "two": 12.1,
+    "three": 82.6,
+    "four": "6,990",
+    "five": 21.06,
+    "six": 24
+  },
+  {
+    "State": "Iowa",
+    "one": 38.7,
+    "two": 12.7,
+    "three": 81.1,
+    "four": "2,260",
+    "five": 8.43,
+    "six": 24
+  },
+  {
+    "State": "Kansas",
+    "one": 32.5,
+    "two": 11.8,
+    "three": 82.3,
+    "four": "3,130",
+    "five": 4.78,
+    "six": 36
+  },
+  {
+    "State": "Kentucky",
+    "one": 37.4,
+    "two": 12.6,
+    "three": 82.2,
+    "four": "2,650",
+    "five": 49.35,
+    "six": 16
+  },
+  {
+    "State": "Louisiana",
+    "one": 29,
+    "two": 12.2,
+    "three": 82.6,
+    "four": "1,950",
+    "five": 53.2,
+    "six": 20
+  },
+  {
+    "State": "Maine",
+    "one": 27.8,
+    "two": 13.8,
+    "three": 78.8,
+    "four": "1,920",
+    "five": 89.46,
+    "six": 30
+  },
+  {
+    "State": "Maryland",
+    "one": 30.9,
+    "two": 19.6,
+    "three": 73.9,
+    "four": "17,970",
+    "five": 39.36,
+    "six": 28
+  },
+  {
+    "State": "Massachusetts",
+    "one": 30.2,
+    "two": 22.8,
+    "three": 69.9,
+    "four": "21,010",
+    "five": 60.57,
+    "six": 42
+  },
+  {
+    "State": "Michigan",
+    "one": 28.4,
+    "two": 12.4,
+    "three": 82.3,
+    "four": "10,620",
+    "five": 55.62,
+    "six": 24
+  },
+  {
+    "State": "Minnesota",
+    "one": 32.6,
+    "two": 14.6,
+    "three": 77.8,
+    "four": "10,380",
+    "five": 34.08,
+    "six": 30
+  },
+  {
+    "State": "Mississippi",
+    "one": 27.1,
+    "two": 10.9,
+    "three": 85.1,
+    "four": 780,
+    "five": 65.07,
+    "six": 48
+  },
+  {
+    "State": "Missouri",
+    "one": 33.4,
+    "two": 11.8,
+    "three": 82,
+    "four": "6,740",
+    "five": 35.16,
+    "six": 30
+  },
+  {
+    "State": "Montana",
+    "one": 41.1,
+    "two": 15.3,
+    "three": 75.9,
+    "four": 940,
+    "five": 27.45,
+    "six": 12
+  },
+  {
+    "State": "Nebraska",
+    "one": 34.2,
+    "two": 12.2,
+    "three": 82,
+    "four": "1,810",
+    "five": 3.2,
+    "six": 36
+  },
+  {
+    "State": "Nevada",
+    "one": 34.4,
+    "two": 15.5,
+    "three": 78,
+    "four": "11,040",
+    "five": 15.89,
+    "six": 12
+  },
+  {
+    "State": "New Hampshire",
+    "one": 36,
+    "two": 11.5,
+    "three": 80.6,
+    "four": "2,690",
+    "five": 84.32,
+    "six": 16
+  },
+  {
+    "State": "New Jersey",
+    "one": 29.7,
+    "two": 22.5,
+    "three": 71.2,
+    "four": "30,420",
+    "five": 41.72,
+    "six": 22
+  },
+  {
+    "State": "New Mexico",
+    "one": 30.6,
+    "two": 13.1,
+    "three": 80.4,
+    "four": "2,620",
+    "five": 31.99,
+    "six": 26
+  },
+  {
+    "State": "New York",
+    "one": 22.8,
+    "two": 40.6,
+    "three": 53,
+    "four": "32,590",
+    "five": 62.88,
+    "six": 24
+  },
+  {
+    "State": "North Carolina",
+    "one": 32.7,
+    "two": 12,
+    "three": 80.9,
+    "four": "16,190",
+    "five": 59.73,
+    "six": 22
+  },
+  {
+    "State": "North Dakota",
+    "one": 30,
+    "two": 12.7,
+    "three": 81.7,
+    "four": 220,
+    "five": 1.72,
+    "six": 16
+  },
+  {
+    "State": "Ohio",
+    "one": 37.8,
+    "two": 11.6,
+    "three": 82.9,
+    "four": "14,530",
+    "five": 30.92,
+    "six": 24
+  },
+  {
+    "State": "Oklahoma",
+    "one": 31.7,
+    "two": 11.9,
+    "three": 82.5,
+    "four": "3,410",
+    "five": 28.8,
+    "six": 38
+  },
+  {
+    "State": "Oregon",
+    "one": 33.8,
+    "two": 18,
+    "three": 71.7,
+    "four": "22,850",
+    "five": 48.51,
+    "six": 56
+  },
+  {
+    "State": "Pennsylvania",
+    "one": 33.3,
+    "two": 17.7,
+    "three": 75.9,
+    "four": "17,530",
+    "five": 58.6,
+    "six": 64
+  },
+  {
+    "State": "Rhode Island",
+    "one": 37.4,
+    "two": 14.5,
+    "three": 80.2,
+    "four": "1,580",
+    "five": 54.38,
+    "six": 40
+  },
+  {
+    "State": "South Carolina",
+    "one": 35,
+    "two": 11.7,
+    "three": 82.4,
+    "four": "4,390",
+    "five": 68.19,
+    "six": 48
+  },
+  {
+    "State": "South Dakota",
+    "one": 38.8,
+    "two": 12.2,
+    "three": 80.6,
+    "four": 410,
+    "five": 3.93,
+    "six": 70
+  },
+  {
+    "State": "Tennessee",
+    "one": 32,
+    "two": 10.9,
+    "three": 83.1,
+    "four": "7,810",
+    "five": 52.83,
+    "six": 30
+  },
+  {
+    "State": "Texas",
+    "one": 28.7,
+    "two": 12.9,
+    "three": 80.5,
+    "four": "52,190",
+    "five": 37.33,
+    "six": 36
+  },
+  {
+    "State": "Utah",
+    "one": 28.7,
+    "two": 15.7,
+    "three": 76,
+    "four": "11,230",
+    "five": 34.48,
+    "six": 42
+  },
+  {
+    "State": "Vermont",
+    "one": 33.1,
+    "two": 15.6,
+    "three": 75.9,
+    "four": "2,230",
+    "five": 77.81,
+    "six": 46
+  },
+  {
+    "State": "Virginia",
+    "one": 37.3,
+    "two": 16,
+    "three": 77,
+    "four": "20,510",
+    "five": 62.93,
+    "six": 32
+  },
+  {
+    "State": "Washington",
+    "one": 38.7,
+    "two": 20.3,
+    "three": 71.6,
+    "four": "50,520",
+    "five": 52.74,
+    "six": 32
+  },
+  {
+    "State": "West Virginia",
+    "one": 29.9,
+    "two": 12.7,
+    "three": 82.5,
+    "four": 600,
+    "five": 79.01,
+    "six": 66
+  },
+  {
+    "State": "Wisconsin",
+    "one": 34.4,
+    "two": 12.6,
+    "three": 81.1,
+    "four": "6,310",
+    "five": 48.98,
+    "six": 36
+  },
+  {
+    "State": "Wyoming",
+    "one": 33.9,
+    "two": 15.3,
+    "three": 77.4,
+    "four": 330,
+    "five": 18.42,
+    "six": 18
+  }
+]
