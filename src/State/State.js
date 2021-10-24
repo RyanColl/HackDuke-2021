@@ -69,7 +69,6 @@ const State = () => {
                     <Pie style={{gridRow: '1/2', gridColumn: '1/2'}} options={{responsive: false, maintainAspectRatio: false}} width={450}  data={natureData} />
                     <Bar style={{gridRow: '1/3', gridColumn: '2/3'}} options={{responsive: false, maintainAspectRatio: false, indexAxis: 'y', plugins: {legend: {position: 'right'}}}} width={450}  height={300}  data={natureData} />
                     <Doughnut style={{gridRow: '2/3', gridColumn: '1/2'}} options={{responsive: false, maintainAspectRatio: false}} width={450}  data={natureData} />
-                   
                 </div>
             </div>
             <div className='energy-div box'>
@@ -78,10 +77,9 @@ const State = () => {
                     <tbody>{[four, five, six, seven, eight].map(r => <td>{r}</td>)}</tbody>
                 </table>
                 <div className='charts box'>
-                    <Pie style={{gridRow: '1/2', gridColumn: '1/2'}} options={{responsive: false, maintainAspectRatio: false}} width={600}  data={energyData} />
-                    <Bar style={{gridRow: '1/2', gridColumn: '2/3'}} options={{responsive: false, maintainAspectRatio: false}} width={600}  data={energyData} />
-                    <Doughnut style={{gridRow: '2/3', gridColumn: '1/2'}} options={{responsive: false, maintainAspectRatio: false}} width={600}  data={energyData} />
-                    <Line style={{gridRow: '2/3', gridColumn: '2/3'}} options={{responsive: false, maintainAspectRatio: false}} width={600}  data={energyData} /> 
+                    <Pie style={{gridRow: '1/2', gridColumn: '1/2'}} options={{responsive: false, maintainAspectRatio: false}} width={450}  data={energyData} />
+                    <Bar style={{gridRow: '1/3', gridColumn: '2/3'}} options={{responsive: false, maintainAspectRatio: false, indexAxis: 'y', plugins: {legend: {position: 'right'}}}} width={450}  height={300}  data={energyData} />
+                    <Doughnut style={{gridRow: '2/3', gridColumn: '1/2'}} options={{responsive: false, maintainAspectRatio: false}} width={450}  data={energyData} />
                 </div>
             </div>
             <div className='transportation-div box'>
@@ -90,10 +88,9 @@ const State = () => {
                     <tbody>{[nine, ten, eleven, twelve].map(r => <td>{r}</td>)}</tbody>
                 </table>
                 <div className='charts box'>
-                    <Pie style={{gridRow: '1/2', gridColumn: '1/2'}} options={{responsive: false, maintainAspectRatio: false}} width={600}  data={transportationData} />
-                    <Bar style={{gridRow: '1/2', gridColumn: '2/3'}} options={{responsive: false, maintainAspectRatio: false}} width={600}  data={transportationData} />
-                    <Doughnut style={{gridRow: '2/3', gridColumn: '1/2'}} options={{responsive: false, maintainAspectRatio: false}} width={600}  data={transportationData} />
-                    <Line style={{gridRow: '2/3', gridColumn: '2/3'}} options={{responsive: false, maintainAspectRatio: false}} width={600}  data={transportationData} /> 
+                    <Pie style={{gridRow: '1/2', gridColumn: '1/2'}} options={{responsive: false, maintainAspectRatio: false}} width={450}  data={transportationData} />
+                    <Bar style={{gridRow: '1/3', gridColumn: '2/3'}} options={{responsive: false, maintainAspectRatio: false, indexAxis: 'y', plugins: {legend: {position: 'right'}}}} width={450}  height={300}  data={transportationData} />
+                    <Doughnut style={{gridRow: '2/3', gridColumn: '1/2'}} options={{responsive: false, maintainAspectRatio: false}} width={450}  data={transportationData} />
                 </div>
             </div>
             <div className='household-div box'>
@@ -102,10 +99,9 @@ const State = () => {
                     <tbody>{[thirteen, fourteen, fifteen, sixteen].map(r => <td>{r}</td>)}</tbody>
                 </table>
                 <div className='charts box'>
-                    <Pie style={{gridRow: '1/2', gridColumn: '1/2'}} options={{responsive: false, maintainAspectRatio: false}} width={675}  data={householdData} />
-                    <Bar style={{gridRow: '1/3', gridColumn: '2/3'}} options={{responsive: false, maintainAspectRatio: false}} width={675}  data={householdData} />
-                    <Doughnut style={{gridRow: '2/3', gridColumn: '1/2'}} options={{responsive: false, maintainAspectRatio: false}} width={675}  data={householdData} />
-                    <Line style={{gridRow: '2/3', gridColumn: '2/3'}} options={{responsive: false, maintainAspectRatio: false}} width={675}  data={householdData} />
+                    <Pie style={{gridRow: '1/2', gridColumn: '1/2'}} options={{responsive: false, maintainAspectRatio: false}} width={450}  data={householdData} />
+                    <Bar style={{gridRow: '1/3', gridColumn: '2/3'}} options={{responsive: false, maintainAspectRatio: false, indexAxis: 'y', plugins: {legend: {position: 'right'}}}} width={450}  height={300}  data={householdData} />
+                    <Doughnut style={{gridRow: '2/3', gridColumn: '1/2'}} options={{responsive: false, maintainAspectRatio: false}} width={450}  data={householdData} />
                 </div>
                 
             </div>
