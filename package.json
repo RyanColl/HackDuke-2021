@@ -1,6 +1,8 @@
 {
   "name": "hackduke-2021",
   "version": "0.1.0",
+  "author": "Owen Sizemore & Ryan Collicutt",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
